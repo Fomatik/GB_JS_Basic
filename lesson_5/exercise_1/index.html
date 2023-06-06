@@ -1,0 +1,22 @@
+<!--1 Создать функцию, генерирующую шахматную доску. Можно использовать любые html-теги.
+Доска должна быть верно разлинована на черные и белые ячейки.
+Строки должны нумероваться числами от 1 до 8, столбцы — латинскими буквами A, B, C, D, E, F, G, H.
+
+3 * Заполнить созданную таблицу буквами, отвечающими за шахматную фигуру, например К – король, Ф – ферзь и т.п.,
+причем все фигуры должны стоять на своих местах и быть соответственно черными и белыми.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chess</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body onload="createChessBoard()">
+<main>
+    <div id="chessBoard"></div>
+    <button onclick="placeChessPieces()">Расставить фигуры</button>
+</main>
+<script src="scripts.js"></script>
+</body>
+</html>
