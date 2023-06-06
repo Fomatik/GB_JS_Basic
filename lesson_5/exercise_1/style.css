@@ -1,0 +1,47 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#chessBoard {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+}
+
+.white {
+    background-color: #f0d9b5;
+}
+
+.black {
+    background-color: #b58863;
+}
+
+.letter-cell {
+    padding-top: 32px;
+    padding-right: 5px;
+}
+
+.number-cell {
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.piece {
+    font-size: 36px;
+    line-height: 1;
+    text-align: center;
+    padding-top: 5px;
+    cursor: grab;
+}
+
+button {
+    display: flex;
+    margin: 15px auto;
+}
